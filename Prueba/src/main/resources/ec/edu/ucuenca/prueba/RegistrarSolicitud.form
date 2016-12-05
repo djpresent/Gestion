@@ -5,7 +5,7 @@
 <property name="status" value="0"/>
 <field position="2" name="Solicitud_fechaSolicitud" type="InputDate" id="160751096">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;fechaSolicitud (Solicitud)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="Solicitud/fechaSolicitud"/>
@@ -41,11 +41,15 @@
 <property name="outputBinding" value="Solicitud/esQuipux"/>
 <property name="fieldClass" value="java.util.List"/>
 </field>
-<field position="3" name="Solicitud_titulo" type="InputText" id="1624357031">
+<field position="3" name="Solicitud_titulo" type="InputTextArea" id="1624357031">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;titulo (Solicitud)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;titulo (Solicitud)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="inputBinding" value="Solicitud/titulo"/>
 <property name="outputBinding" value="Solicitud/titulo"/>
 <property name="fieldClass" value="java.lang.String"/>
