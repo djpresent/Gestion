@@ -5,7 +5,7 @@ package ec.edu.ucuenca.prueba;
  */
 
 @javax.persistence.Entity
-@org.kie.api.definition.type.Label("SOlicitud de tr?mites")
+@org.kie.api.definition.type.Label("Solicitud de tr?mites")
 public class Solicitud implements java.io.Serializable
 {
 
