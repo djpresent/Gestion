@@ -5,6 +5,7 @@ package ec.edu.ucuenca.prueba;
  */
 
 @javax.persistence.Entity
+@org.kie.api.definition.type.Label("SOlicitud de tr?mites")
 public class Solicitud implements java.io.Serializable
 {
 
@@ -16,23 +17,23 @@ public class Solicitud implements java.io.Serializable
    @org.kie.api.definition.type.Label("Id")
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label(value = "Fecha de solicitud")
+   @org.kie.api.definition.type.Label("Fecha de solicitud")
    private java.util.Date fechaSolicitud;
 
-   @org.kie.api.definition.type.Label(value = "Fecha del Tr\u00E1mite")
+   @org.kie.api.definition.type.Label("Fecha del Tr?mite")
    private java.util.Date fechaTramite;
 
    @javax.persistence.ElementCollection(fetch = javax.persistence.FetchType.EAGER)
-   @org.kie.api.definition.type.Label(value = "Esun documento de Quipux?")
+   @org.kie.api.definition.type.Label("Esun documento de Quipux?")
    private java.util.List<java.lang.Boolean> esQuipux;
 
-   @org.kie.api.definition.type.Label(value = "T\u00EDtulo de la solicutud")
+   @org.kie.api.definition.type.Label("T?tulo de la solicutud")
    private java.lang.String titulo;
 
-   @org.kie.api.definition.type.Label(value = "Finalizado?")
+   @org.kie.api.definition.type.Label("Finalizado?")
    private java.lang.Boolean finalizado;
 
-   @org.kie.api.definition.type.Label(value = "Feca de finalizaci\u00F3n del tr\u00E1mite")
+   @org.kie.api.definition.type.Label("Feca de finalizaci?n del tr?mite")
    private java.util.Date fechaFin;
 
    public Solicitud()
@@ -111,9 +112,8 @@ public class Solicitud implements java.io.Serializable
 
    public Solicitud(java.lang.Long id, java.util.Date fechaSolicitud,
          java.util.Date fechaTramite,
-         java.util.List<java.lang.Boolean> esQuipux,
-         java.lang.String titulo, java.lang.Boolean finalizado,
-         java.util.Date fechaFin)
+         java.util.List<java.lang.Boolean> esQuipux, java.lang.String titulo,
+         java.lang.Boolean finalizado, java.util.Date fechaFin)
    {
       this.id = id;
       this.fechaSolicitud = fechaSolicitud;
