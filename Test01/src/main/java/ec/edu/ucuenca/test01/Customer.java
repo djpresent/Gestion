@@ -5,28 +5,76 @@ package ec.edu.ucuenca.test01;
  */
 
 @javax.persistence.Entity
-public class Customer implements java.io.Serializable {
+public class Customer implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "CUSTOMER_ID_GENERATOR")
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(sequenceName = "CUSTOMER_ID_SEQ", name = "CUSTOMER_ID_GENERATOR")
-    private java.lang.Long id;
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "CUSTOMER_ID_GENERATOR")
+   @javax.persistence.Id
+   @javax.persistence.SequenceGenerator(sequenceName = "CUSTOMER_ID_SEQ", name = "CUSTOMER_ID_GENERATOR")
+   private java.lang.Long id;
 
-    public Customer() {
-    }
-    
-    public Customer(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "Age")
+   private java.lang.Integer age;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "Name")
+   private java.lang.String name;
+
+   @org.kie.api.definition.type.Label(value = "Sex")
+   private java.lang.String sex;
+
+   public Customer()
+   {
+   }
+
+   public java.lang.Long getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.Long id)
+   {
+      this.id = id;
+   }
+
+   public java.lang.Integer getAge()
+   {
+      return this.age;
+   }
+
+   public void setAge(java.lang.Integer age)
+   {
+      this.age = age;
+   }
+
+   public java.lang.String getName()
+   {
+      return this.name;
+   }
+
+   public void setName(java.lang.String name)
+   {
+      this.name = name;
+   }
+
+   public java.lang.String getSex()
+   {
+      return this.sex;
+   }
+
+   public void setSex(java.lang.String sex)
+   {
+      this.sex = sex;
+   }
+
+   public Customer(java.lang.Long id, java.lang.Integer age,
+         java.lang.String name, java.lang.String sex)
+   {
+      this.id = id;
+      this.age = age;
+      this.name = name;
+      this.sex = sex;
+   }
 
 }
