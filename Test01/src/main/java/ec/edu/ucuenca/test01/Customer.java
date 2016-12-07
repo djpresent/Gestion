@@ -10,32 +10,17 @@ public class Customer implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "CUSTOMER_ID_GENERATOR")
-   @javax.persistence.Id
-   @javax.persistence.SequenceGenerator(sequenceName = "CUSTOMER_ID_SEQ", name = "CUSTOMER_ID_GENERATOR")
-   private java.lang.Long id;
-
-   @org.kie.api.definition.type.Label(value = "Age")
+   @org.kie.api.definition.type.Label("Age")
    private java.lang.Integer age;
 
-   @org.kie.api.definition.type.Label(value = "Name")
+   @org.kie.api.definition.type.Label("Name")
    private java.lang.String name;
 
-   @org.kie.api.definition.type.Label(value = "Sex")
+   @org.kie.api.definition.type.Label("Sex")
    private java.lang.String sex;
 
    public Customer()
    {
-   }
-
-   public java.lang.Long getId()
-   {
-      return this.id;
-   }
-
-   public void setId(java.lang.Long id)
-   {
-      this.id = id;
    }
 
    public java.lang.Integer getAge()
@@ -68,10 +53,9 @@ public class Customer implements java.io.Serializable
       this.sex = sex;
    }
 
-   public Customer(java.lang.Long id, java.lang.Integer age,
-         java.lang.String name, java.lang.String sex)
+   public Customer(java.lang.Integer age, java.lang.String name,
+         java.lang.String sex)
    {
-      this.id = id;
       this.age = age;
       this.name = name;
       this.sex = sex;
