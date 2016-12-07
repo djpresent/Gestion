@@ -6,6 +6,8 @@ package ec.edu.ucuenca.test01;
 
 @javax.persistence.Entity
 @javax.persistence.Table(name = "Cliente")
+@org.kie.api.definition.type.TypeSafe(true)
+@org.kie.api.definition.type.Role(org.kie.api.definition.type.Role.Type.EVENT)
 public class Customer implements java.io.Serializable
 {
 
