@@ -5,6 +5,7 @@ package ec.edu.ucuenca.test01;
  */
 
 @javax.persistence.Entity
+@javax.persistence.Table(name = "Cliente")
 public class Customer implements java.io.Serializable
 {
 
