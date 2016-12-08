@@ -5,28 +5,100 @@ package ec.edu.ucuenca.daf;
  */
 
 @javax.persistence.Entity
-public class Reasignacion implements java.io.Serializable {
+public class Reasignacion implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "REASIGNACION_ID_GENERATOR")
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(sequenceName = "REASIGNACION_ID_SEQ", name = "REASIGNACION_ID_GENERATOR")
-    private java.lang.Long id;
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "REASIGNACION_ID_GENERATOR")
+   @javax.persistence.Id
+   @javax.persistence.SequenceGenerator(sequenceName = "REASIGNACION_ID_SEQ", name = "REASIGNACION_ID_GENERATOR")
+   private java.lang.Long id;
 
-    public Reasignacion() {
-    }
-    
-    public Reasignacion(java.lang.Long id) {
-        this.id = id;
-    }
+   private java.lang.String usuarioOrigen;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   private java.lang.String usuarioDestino;
+
+   private java.util.Date fecha;
+
+   private java.lang.String accionRealizar;
+
+   private java.lang.String accionRealizada;
+
+   public Reasignacion()
+   {
+   }
+
+   public java.lang.Long getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.Long id)
+   {
+      this.id = id;
+   }
+
+   public java.lang.String getUsuarioOrigen()
+   {
+      return this.usuarioOrigen;
+   }
+
+   public void setUsuarioOrigen(java.lang.String usuarioOrigen)
+   {
+      this.usuarioOrigen = usuarioOrigen;
+   }
+
+   public java.lang.String getUsuarioDestino()
+   {
+      return this.usuarioDestino;
+   }
+
+   public void setUsuarioDestino(java.lang.String usuarioDestino)
+   {
+      this.usuarioDestino = usuarioDestino;
+   }
+
+   public java.util.Date getFecha()
+   {
+      return this.fecha;
+   }
+
+   public void setFecha(java.util.Date fecha)
+   {
+      this.fecha = fecha;
+   }
+
+   public java.lang.String getAccionRealizar()
+   {
+      return this.accionRealizar;
+   }
+
+   public void setAccionRealizar(java.lang.String accionRealizar)
+   {
+      this.accionRealizar = accionRealizar;
+   }
+
+   public java.lang.String getAccionRealizada()
+   {
+      return this.accionRealizada;
+   }
+
+   public void setAccionRealizada(java.lang.String accionRealizada)
+   {
+      this.accionRealizada = accionRealizada;
+   }
+
+   public Reasignacion(java.lang.Long id, java.lang.String usuarioOrigen,
+         java.lang.String usuarioDestino, java.util.Date fecha,
+         java.lang.String accionRealizar, java.lang.String accionRealizada)
+   {
+      this.id = id;
+      this.usuarioOrigen = usuarioOrigen;
+      this.usuarioDestino = usuarioDestino;
+      this.fecha = fecha;
+      this.accionRealizar = accionRealizar;
+      this.accionRealizada = accionRealizada;
+   }
 
 }
