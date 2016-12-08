@@ -5,28 +5,57 @@ package ec.edu.ucuenca.aprobacion;
  */
 
 @javax.persistence.Entity
-public class Student implements java.io.Serializable {
+public class Student implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "STUDENT_ID_GENERATOR")
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(sequenceName = "STUDENT_ID_SEQ", name = "STUDENT_ID_GENERATOR")
-    private java.lang.Long id;
+   private java.lang.Boolean elegible;
 
-    public Student() {
-    }
-    
-    public Student(java.lang.Long id) {
-        this.id = id;
-    }
+   private java.lang.Float gpa;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   private java.lang.String name;
+
+   public Student()
+   {
+   }
+
+   public java.lang.Boolean getElegible()
+   {
+      return this.elegible;
+   }
+
+   public void setElegible(java.lang.Boolean elegible)
+   {
+      this.elegible = elegible;
+   }
+
+   public java.lang.Float getGpa()
+   {
+      return this.gpa;
+   }
+
+   public void setGpa(java.lang.Float gpa)
+   {
+      this.gpa = gpa;
+   }
+
+   public java.lang.String getName()
+   {
+      return this.name;
+   }
+
+   public void setName(java.lang.String name)
+   {
+      this.name = name;
+   }
+
+   public Student(java.lang.Boolean elegible, java.lang.Float gpa,
+         java.lang.String name)
+   {
+      this.elegible = elegible;
+      this.gpa = gpa;
+      this.name = name;
+   }
 
 }
