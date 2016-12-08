@@ -83,8 +83,9 @@
 <property name="outputBinding" value="tramite/numeroDocumento"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="10" name="tramite_reasignacion" bag-type="ec.edu.ucuenca.daf.Reasignacion" type="MultipleSubform" id="1602713864">
+<field position="12" name="tramite_reasignacion" bag-type="ec.edu.ucuenca.daf.Reasignacion" type="MultipleSubform" id="1602713864">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;reasignacion (tramite)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -105,7 +106,7 @@
 <property name="enableTableEnterData" value="false"/>
 <property name="fieldClass" value="java.util.List"/>
 </field>
-<field position="11" name="tramite_solicitante" type="InputText" id="2018883572">
+<field position="10" name="tramite_solicitante" type="InputText" id="2018883572">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;solicitante (tramite)quot;"/>
 <property name="readonly" value="false"/>
@@ -113,7 +114,7 @@
 <property name="outputBinding" value="tramite/solicitante"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="12" name="tramite_tipoDocumento" type="InputText" id="569843258">
+<field position="11" name="tramite_tipoDocumento" type="InputText" id="569843258">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;tipoDocumento (tramite)quot;"/>
 <property name="readonly" value="false"/>
