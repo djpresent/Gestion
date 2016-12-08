@@ -3,4 +3,55 @@
 <property name="name" value="DetalleTramite.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="detalleTramite_accionRealizada" type="InputText" id="495827340">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;accionRealizada (detalleTramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="detalleTramite/accionRealizada"/>
+<property name="outputBinding" value="detalleTramite/accionRealizada"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="detalleTramite_accionRealizar" type="InputText" id="2126364134">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;accionRealizar (detalleTramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="detalleTramite/accionRealizar"/>
+<property name="outputBinding" value="detalleTramite/accionRealizar"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="detalleTramite_fecha" type="InputDate" id="651539439">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fecha (detalleTramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="detalleTramite/fecha"/>
+<property name="outputBinding" value="detalleTramite/fecha"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="3" name="detalleTramite_id" type="InputTextLong" id="1354023160">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;id (detalleTramite)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="inputBinding" value="detalleTramite/id"/>
+<property name="outputBinding" value="detalleTramite/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="4" name="detalleTramite_usuarioDestino" type="InputText" id="2137473140">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;usuarioDestino (detalleTramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="detalleTramite/usuarioDestino"/>
+<property name="outputBinding" value="detalleTramite/usuarioDestino"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="detalleTramite_usuarioOrigen" type="InputText" id="1047986913">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;usuarioOrigen (detalleTramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="detalleTramite/usuarioOrigen"/>
+<property name="outputBinding" value="detalleTramite/usuarioOrigen"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="detalleTramite" name="#9BCAFA" type="dataModelerEntry" outId="detalleTramite" value="ec.edu.ucuenca.daf.Reasignacion" id="detalleTramite"/>
 </form>
