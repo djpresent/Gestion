@@ -35,15 +35,7 @@
 <property name="outputBinding" value="tramite/fechaDespachoDireccion"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<field position="4" name="tramite_fechaFinalizacion" type="InputDate" id="264249399">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;fechaFinalizacion (tramite)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="tramite/fechaFinalizacion"/>
-<property name="outputBinding" value="tramite/fechaFinalizacion"/>
-<property name="fieldClass" value="java.util.Date"/>
-</field>
-<field position="5" name="tramite_fechaIngresoTramite" type="InputDate" id="2134856362">
+<field position="4" name="tramite_fechaIngresoTramite" type="InputDate" id="2134856362">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;fechaIngresoTramite (tramite)quot;"/>
 <property name="readonly" value="false"/>
@@ -51,7 +43,7 @@
 <property name="outputBinding" value="tramite/fechaIngresoTramite"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<field position="6" name="tramite_fechaSolicitud" type="InputText" id="1606206667">
+<field position="5" name="tramite_fechaSolicitud" type="InputText" id="1606206667">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;fechaSolicitud (tramite)quot;"/>
 <property name="readonly" value="false"/>
@@ -59,23 +51,17 @@
 <property name="outputBinding" value="tramite/fechaSolicitud"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="7" name="tramite_finalizado" type="CheckBox" id="683362312">
+<field position="6" name="tramite_id" type="InputTextLong" id="1290642445">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;finalizado (tramite)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="tramite/finalizado"/>
-<property name="outputBinding" value="tramite/finalizado"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="8" name="tramite_id" type="InputTextLong" id="1290642445">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;id (tramite)quot;"/>
-<property name="readonly" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;id (tramite)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
 <property name="inputBinding" value="tramite/id"/>
 <property name="outputBinding" value="tramite/id"/>
 <property name="fieldClass" value="java.lang.Long"/>
 </field>
-<field position="9" name="tramite_numeroDocumento" type="InputText" id="1114816155">
+<field position="7" name="tramite_numeroDocumento" type="InputText" id="1114816155">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;numeroDocumento (tramite)quot;"/>
 <property name="readonly" value="false"/>
@@ -83,15 +69,7 @@
 <property name="outputBinding" value="tramite/numeroDocumento"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="10" name="tramite_reasignacion" bag-type="ec.edu.ucuenca.daf.Reasignacion" type="MultipleSubform" id="840728789">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;reasignacion (tramite)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="tramite/reasignacion"/>
-<property name="outputBinding" value="tramite/reasignacion"/>
-<property name="fieldClass" value="java.util.List"/>
-</field>
-<field position="11" name="tramite_solicitante" type="InputText" id="330369832">
+<field position="8" name="tramite_solicitante" type="InputText" id="330369832">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;solicitante (tramite)quot;"/>
 <property name="readonly" value="false"/>
@@ -99,7 +77,7 @@
 <property name="outputBinding" value="tramite/solicitante"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="12" name="tramite_tipoDocumento" type="InputText" id="152466215">
+<field position="9" name="tramite_tipoDocumento" type="InputText" id="152466215">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;tipoDocumento (tramite)quot;"/>
 <property name="readonly" value="false"/>
