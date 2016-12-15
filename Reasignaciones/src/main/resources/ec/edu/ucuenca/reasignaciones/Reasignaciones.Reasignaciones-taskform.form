@@ -1,7 +1,0 @@
-
-<form id="265620111">
-<property name="name" value="Reasignaciones.Reasignaciones-taskform.form"/>
-<property name="displayMode" value="default"/>
-<property name="status" value="0"/>
-<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="reasignacion" value="ec.edu.ucuenca.reasignaciones.Tramite" id="reasignacion"/>
-</form>
