@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ec.edu.ucuenca</groupId>
   <artifactId>Reasignaciones</artifactId>
-  <version>15.0</version>
+  <version>16.0</version>
   <packaging>kjar</packaging>
   <name>Reasignaciones</name>
   <repositories>
