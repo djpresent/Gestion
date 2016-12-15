@@ -3,4 +3,53 @@
 <property name="name" value="Reasignacion.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="reasignacion_acccionARealizar" type="InputText" id="841898271">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;acccionARealizar (reasignacion)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="reasignacion/acccionARealizar"/>
+<property name="outputBinding" value="reasignacion/acccionARealizar"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="reasignacion_accionRealizada" type="InputText" id="1447851385">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;accionRealizada (reasignacion)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="reasignacion/accionRealizada"/>
+<property name="outputBinding" value="reasignacion/accionRealizada"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="reasignacion_fecha" type="InputDate" id="1490914614">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fecha (reasignacion)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="reasignacion/fecha"/>
+<property name="outputBinding" value="reasignacion/fecha"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="3" name="reasignacion_id" type="InputTextLong" id="155261359">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (reasignacion)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="reasignacion/id"/>
+<property name="outputBinding" value="reasignacion/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="4" name="reasignacion_usuarioDestino" type="InputText" id="114294428">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;usuarioDestino (reasignacion)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="reasignacion/usuarioDestino"/>
+<property name="outputBinding" value="reasignacion/usuarioDestino"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="reasignacion_usuarioOrigen" type="InputText" id="918812813">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;usuarioOrigen (reasignacion)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="reasignacion/usuarioOrigen"/>
+<property name="outputBinding" value="reasignacion/usuarioOrigen"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="reasignacion" name="#9BCAFA" type="dataModelerEntry" outId="reasignacion" value="ec.edu.ucuenca.reasignaciones.Reasignacion" id="reasignacion"/>
 </form>
