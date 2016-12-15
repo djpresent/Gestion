@@ -1,0 +1,111 @@
+
+<form id="2129723142">
+<property name="name" value="ReasignarTramites-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="9" name="tramite_numeroDocumento" type="InputText" id="854533709">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;numeroDocumento (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/numeroDocumento"/>
+<property name="outputBinding" value="tramite/numeroDocumento"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="tramite_fechaSolicitud" type="InputText" id="1837385607">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fechaSolicitud (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/fechaSolicitud"/>
+<property name="outputBinding" value="tramite/fechaSolicitud"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="tramite_fechaIngresoTramite" type="InputDate" id="1706674140">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fechaIngresoTramite (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/fechaIngresoTramite"/>
+<property name="outputBinding" value="tramite/fechaIngresoTramite"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="1" name="tramite_descripcion" type="InputText" id="769260200">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;descripcion (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/descripcion"/>
+<property name="outputBinding" value="tramite/descripcion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="tramite_reasignacion" bag-type="ec.edu.ucuenca.daf.Reasignacion" type="MultipleSubform" id="363364505">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;reasignacion (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/reasignacion"/>
+<property name="outputBinding" value="tramite/reasignacion"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="7" name="tramite_finalizado" type="CheckBox" id="1495851739">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;finalizado (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/finalizado"/>
+<property name="outputBinding" value="tramite/finalizado"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="0" name="tramite_dependenciaOrigen" type="InputText" id="1712402053">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dependenciaOrigen (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/dependenciaOrigen"/>
+<property name="outputBinding" value="tramite/dependenciaOrigen"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="tramite_esQuipux" type="CheckBox" id="832595256">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;esQuipux (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/esQuipux"/>
+<property name="outputBinding" value="tramite/esQuipux"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="8" name="tramite_id" type="InputTextLong" id="606545183">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/id"/>
+<property name="outputBinding" value="tramite/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="12" name="tramite_tipoDocumento" type="InputText" id="1049404341">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;tipoDocumento (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/tipoDocumento"/>
+<property name="outputBinding" value="tramite/tipoDocumento"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="tramite_fechaFinalizacion" type="InputDate" id="208755979">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fechaFinalizacion (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/fechaFinalizacion"/>
+<property name="outputBinding" value="tramite/fechaFinalizacion"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="11" name="tramite_solicitante" type="InputText" id="175546349">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;solicitante (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/solicitante"/>
+<property name="outputBinding" value="tramite/solicitante"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="tramite_fechaDespachoDireccion" type="InputDate" id="622102987">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fechaDespachoDireccion (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/fechaDespachoDireccion"/>
+<property name="outputBinding" value="tramite/fechaDespachoDireccion"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<dataHolder inputId="tramite" name="#E9E371" type="dataModelerEntry" outId="tramite" value="ec.edu.ucuenca.daf.Tramite" id="tramite"/>
+</form>
