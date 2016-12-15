@@ -1,0 +1,91 @@
+
+<form id="1283361307">
+<property name="name" value="Reasignaciones.Reasignaciones-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="4" name="reasignacion_fechaFinalizacion" type="InputDate" id="19482921">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fechaFinalizacion (reasignacion)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="reasignacion/fechaFinalizacion"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="9" name="reasignacion_numeroDocumento" type="InputText" id="1886317278">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;numeroDocumento (reasignacion)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="reasignacion/numeroDocumento"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="reasignacion_solicitante" type="InputText" id="1466359334">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;solicitante (reasignacion)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="reasignacion/solicitante"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="reasignacion_fechaDespacho" type="InputDate" id="1123713176">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fechaDespacho (reasignacion)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="reasignacion/fechaDespacho"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="10" name="reasignacion_reasignacion" type="Subform" id="29179663">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;reasignacion (reasignacion)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="reasignacion/reasignacion"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="6" name="reasignacion_fechaSolicitud" type="InputDate" id="897593315">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fechaSolicitud (reasignacion)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="reasignacion/fechaSolicitud"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="0" name="reasignacion_dependenciaOrigen" type="InputText" id="1991396710">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dependenciaOrigen (reasignacion)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="reasignacion/dependenciaOrigen"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="reasignacion_esQuipux" type="CheckBox" id="829331188">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;esQuipux (reasignacion)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="reasignacion/esQuipux"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="7" name="reasignacion_finalizado" type="CheckBox" id="1881231019">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;finalizado (reasignacion)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="reasignacion/finalizado"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="reasignacion_descripcion" type="InputText" id="698445901">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;descripcion (reasignacion)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="reasignacion/descripcion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="reasignacion_fechaIngresoTramite" type="InputDate" id="191740401">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fechaIngresoTramite (reasignacion)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="reasignacion/fechaIngresoTramite"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="8" name="reasignacion_id" type="InputTextLong" id="1194416079">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (reasignacion)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="reasignacion/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="reasignacion" value="ec.edu.ucuenca.reasignaciones.Tramite" id="reasignacion"/>
+</form>
