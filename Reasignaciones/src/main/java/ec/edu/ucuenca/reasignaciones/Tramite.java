@@ -33,10 +33,10 @@ public class Tramite implements java.io.Serializable
 
    private java.lang.String numeroDocumento;
 
-   @javax.persistence.ManyToOne(fetch = javax.persistence.FetchType.EAGER, cascade = { javax.persistence.CascadeType.ALL })
-   private ec.edu.ucuenca.reasignaciones.Reasignacion reasignacion;
-
    private java.lang.String solicitante;
+
+   @javax.persistence.OneToMany(fetch = javax.persistence.FetchType.EAGER, cascade = { javax.persistence.CascadeType.ALL })
+   private java.util.List<ec.edu.ucuenca.reasignaciones.Reasignacion> reasignacion;
 
    public Tramite()
    {
@@ -142,17 +142,6 @@ public class Tramite implements java.io.Serializable
       this.numeroDocumento = numeroDocumento;
    }
 
-   public ec.edu.ucuenca.reasignaciones.Reasignacion getReasignacion()
-   {
-      return this.reasignacion;
-   }
-
-   public void setReasignacion(
-         ec.edu.ucuenca.reasignaciones.Reasignacion reasignacion)
-   {
-      this.reasignacion = reasignacion;
-   }
-
    public java.lang.String getSolicitante()
    {
       return this.solicitante;
@@ -163,13 +152,24 @@ public class Tramite implements java.io.Serializable
       this.solicitante = solicitante;
    }
 
+   public java.util.List<ec.edu.ucuenca.reasignaciones.Reasignacion> getReasignacion()
+   {
+      return this.reasignacion;
+   }
+
+   public void setReasignacion(
+         java.util.List<ec.edu.ucuenca.reasignaciones.Reasignacion> reasignacion)
+   {
+      this.reasignacion = reasignacion;
+   }
+
    public Tramite(java.lang.Long id, java.lang.String dependenciaOrigen,
          java.lang.String descripcion, java.lang.Boolean esQuipux,
          java.util.Date fechaDespacho, java.util.Date fechaFinalizacion,
          java.util.Date fechaIngresoTramite, java.util.Date fechaSolicitud,
          java.lang.Boolean finalizado, java.lang.String numeroDocumento,
-         ec.edu.ucuenca.reasignaciones.Reasignacion reasignacion,
-         java.lang.String solicitante)
+         java.lang.String solicitante,
+         java.util.List<ec.edu.ucuenca.reasignaciones.Reasignacion> reasignacion)
    {
       this.id = id;
       this.dependenciaOrigen = dependenciaOrigen;
@@ -181,8 +181,8 @@ public class Tramite implements java.io.Serializable
       this.fechaSolicitud = fechaSolicitud;
       this.finalizado = finalizado;
       this.numeroDocumento = numeroDocumento;
-      this.reasignacion = reasignacion;
       this.solicitante = solicitante;
+      this.reasignacion = reasignacion;
    }
 
 }
