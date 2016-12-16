@@ -2,7 +2,7 @@
 <form id="1789548668">
 <property name="name" value="Registrar-taskform.form"/>
 <property name="displayMode" value="aligned"/>
-<property name="labelMode" value="before"/>
+<property name="labelMode" value="left"/>
 <property name="status" value="0"/>
 <field position="0" name="reasignacion_fechaIngresoTramite" type="InputDate" id="880018780">
 <property name="fieldRequired" value="false"/>
