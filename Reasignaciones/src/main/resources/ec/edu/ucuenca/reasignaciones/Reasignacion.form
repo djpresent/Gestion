@@ -2,7 +2,7 @@
 <form id="1697470948">
 <property name="name" value="Reasignacion.form"/>
 <property name="displayMode" value="aligned"/>
-<property name="labelMode" value="before"/>
+<property name="labelMode" value="hidden"/>
 <property name="status" value="0"/>
 <field position="0" name="reasignacion_usuarioOrigen" type="InputText" id="918812813">
 <property name="fieldRequired" value="false"/>
