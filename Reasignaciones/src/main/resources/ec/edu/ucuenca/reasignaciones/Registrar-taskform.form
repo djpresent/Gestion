@@ -71,15 +71,7 @@
 <property name="outputBinding" value="reasignacion/fechaSolicitud"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<field position="6" name="reasignacion_id" type="InputTextLong" id="550488261">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;id (reasignacion)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="reasignacion/id"/>
-<property name="outputBinding" value="reasignacion/id"/>
-<property name="fieldClass" value="java.lang.Long"/>
-</field>
-<field position="7" name="reasignacion_numeroDocumento" type="InputText" id="1697318233">
+<field position="6" name="reasignacion_numeroDocumento" type="InputText" id="1697318233">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Número de documentoquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -91,7 +83,7 @@
 <property name="outputBinding" value="reasignacion/numeroDocumento"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="8" name="reasignacion_solicitante" type="InputText" id="65204317">
+<field position="7" name="reasignacion_solicitante" type="InputText" id="65204317">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Solicitantequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -103,7 +95,7 @@
 <property name="outputBinding" value="reasignacion/solicitante"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="9" name="reasignacion_reasignacion" bag-type="ec.edu.ucuenca.reasignaciones.Reasignacion" type="MultipleSubform" id="1415612186">
+<field position="8" name="reasignacion_reasignacion" bag-type="ec.edu.ucuenca.reasignaciones.Reasignacion" type="MultipleSubform" id="1415612186">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Reasignarquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
