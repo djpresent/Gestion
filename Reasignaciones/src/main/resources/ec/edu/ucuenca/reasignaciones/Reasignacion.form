@@ -11,9 +11,9 @@
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="formula" value="={max(reasignacion/usuarioDestino)}"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="defaultValueFormula" value="={max(reasignacion/reasignacion/usuarioDestino)}"/>
 <property name="inputBinding" value="reasignacion/usuarioOrigen"/>
 <property name="outputBinding" value="reasignacion/usuarioOrigen"/>
 <property name="fieldClass" value="java.lang.String"/>
