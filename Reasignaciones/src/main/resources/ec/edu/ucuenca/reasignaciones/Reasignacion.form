@@ -13,7 +13,6 @@
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="defaultValueFormula" value="=reasignacion.getReasignacion.get(reasignacion.getReasignacion.size()-1).getUsuarioDestino"/>
 <property name="inputBinding" value="reasignacion/usuarioOrigen"/>
 <property name="outputBinding" value="reasignacion/usuarioOrigen"/>
 <property name="fieldClass" value="java.lang.String"/>
