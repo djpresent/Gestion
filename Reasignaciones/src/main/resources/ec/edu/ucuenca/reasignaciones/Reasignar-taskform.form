@@ -25,7 +25,7 @@
 <property name="readonly" value="true"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="defaultValueFormula" value=" #{dependenciaOrigen}"/>
+<property name="defaultValueFormula" value=" #{reasignacion.getDependenciaOrigen()}"/>
 <property name="inputBinding" value="reasignacion/solicitante"/>
 <property name="outputBinding" value="reasignacion/solicitante"/>
 <property name="fieldClass" value="java.lang.String"/>
