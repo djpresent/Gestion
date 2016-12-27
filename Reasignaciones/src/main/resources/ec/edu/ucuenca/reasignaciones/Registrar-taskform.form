@@ -25,7 +25,6 @@
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="defaultValueFormula" value="= getUserId()"/>
 <property name="inputBinding" value="reasignacion/solicitante"/>
 <property name="outputBinding" value="reasignacion/solicitante"/>
 <property name="fieldClass" value="java.lang.String"/>
