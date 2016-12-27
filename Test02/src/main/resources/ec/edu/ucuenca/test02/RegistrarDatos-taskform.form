@@ -76,6 +76,7 @@
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="outputBinding" value="esQuipux"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
 <field position="7" name="fechaDespacho" type="InputShortDate" id="622198586">
@@ -85,6 +86,7 @@
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="defaultValueFormula" value="= new java.util.Date()"/>
+<property name="outputBinding" value="fechaDespacho"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
 </form>
