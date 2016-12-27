@@ -10,6 +10,7 @@
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="defaultValueFormula" value="= new java.util.Date()"/>
+<property name="outputBinding" value="fechaIngreso"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
 <field position="1" name="solicitante" type="InputText" id="43990779">
@@ -20,6 +21,7 @@
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
+<property name="outputBinding" value="solicitante"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="2" name="dependencia" type="InputText" id="1432774111">
