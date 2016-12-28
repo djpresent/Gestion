@@ -6,7 +6,7 @@ package ec.edu.ucuenca.reasignaciones;
 
 @javax.persistence.Entity(name = "Reasignacion")
 @javax.persistence.Table(schema = "public", name = "Reasignacion")
-public class Reasignacion implements java.io.Serializable
+public class Reasignacion 
 {
 
    static final long serialVersionUID = 1L;
