@@ -1,0 +1,39 @@
+
+<form id="1255890140">
+<property name="name" value="Aprobar-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="3" name="solicitud_nombre" type="InputText" id="633659156">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nombre (solicitud)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="solicitud/nombre"/>
+<property name="outputBinding" value="solicitud/nombre"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="solicitud_descripcion" type="InputText" id="603720490">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;descripcion (solicitud)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="solicitud/descripcion"/>
+<property name="outputBinding" value="solicitud/descripcion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="solicitud_aprobar" type="InputText" id="180475945">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;aprobar (solicitud)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="solicitud/aprobar"/>
+<property name="outputBinding" value="solicitud/aprobar"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="solicitud_id" type="InputTextLong" id="1993537007">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (solicitud)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="solicitud/id"/>
+<property name="outputBinding" value="solicitud/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<dataHolder inputId="solicitud" name="#E9E371" type="dataModelerEntry" outId="solicitud" value="ec.edu.ucuenca.prueba1.Solicitud" id="solicitud"/>
+</form>
