@@ -7,7 +7,7 @@ package ec.edu.ucuenca.reasignaciones;
 @javax.persistence.Entity(name = "Tramite")
 @javax.persistence.Table(schema = "public", name = "Tramite")
 @org.kie.api.definition.type.TypeSafe(true)
-public class Tramite 
+public class Tramite implements java.io.Serializable
 {
 
    static final long serialVersionUID = 1L;
