@@ -5,28 +5,76 @@ package ec.edu.ucuenca.prueba3;
  */
 
 @javax.persistence.Entity
-public class SolicitudPrueba3 implements java.io.Serializable {
+public class SolicitudPrueba3 implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "SOLICITUDPRUEBA3_ID_GENERATOR")
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(sequenceName = "SOLICITUDPRUEBA3_ID_SEQ", name = "SOLICITUDPRUEBA3_ID_GENERATOR")
-    private java.lang.Long id;
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "SOLICITUDPRUEBA3_ID_GENERATOR")
+   @javax.persistence.Id
+   @javax.persistence.SequenceGenerator(sequenceName = "SOLICITUDPRUEBA3_ID_SEQ", name = "SOLICITUDPRUEBA3_ID_GENERATOR")
+   private java.lang.Long id;
 
-    public SolicitudPrueba3() {
-    }
-    
-    public SolicitudPrueba3(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "nombre")
+   private java.lang.String nombre;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   @org.kie.api.definition.type.Label(value = "descripcion")
+   private java.lang.String descripcion;
+
+   @org.kie.api.definition.type.Label(value = "aprobar")
+   private java.lang.Boolean aprobar;
+
+   public SolicitudPrueba3()
+   {
+   }
+
+   public java.lang.Long getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.Long id)
+   {
+      this.id = id;
+   }
+
+   public java.lang.String getNombre()
+   {
+      return this.nombre;
+   }
+
+   public void setNombre(java.lang.String nombre)
+   {
+      this.nombre = nombre;
+   }
+
+   public java.lang.String getDescripcion()
+   {
+      return this.descripcion;
+   }
+
+   public void setDescripcion(java.lang.String descripcion)
+   {
+      this.descripcion = descripcion;
+   }
+
+   public java.lang.Boolean getAprobar()
+   {
+      return this.aprobar;
+   }
+
+   public void setAprobar(java.lang.Boolean aprobar)
+   {
+      this.aprobar = aprobar;
+   }
+
+   public SolicitudPrueba3(java.lang.Long id, java.lang.String nombre,
+         java.lang.String descripcion, java.lang.Boolean aprobar)
+   {
+      this.id = id;
+      this.nombre = nombre;
+      this.descripcion = descripcion;
+      this.aprobar = aprobar;
+   }
 
 }
