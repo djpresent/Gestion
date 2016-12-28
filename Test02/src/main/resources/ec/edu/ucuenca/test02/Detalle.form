@@ -11,6 +11,7 @@
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
+<property name="outputBinding" value="actualAsignado"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="1" name="fecha" type="InputText" id="2037246028">
@@ -22,6 +23,7 @@
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
+<property name="outputBinding" value="fecha"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="2" name="accionRealizada" type="InputText" id="1380682724">
@@ -33,6 +35,7 @@
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
+<property name="outputBinding" value="accionRealizada"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="3" name="asignarA" type="InputText" id="365918456">
@@ -44,6 +47,7 @@
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
+<property name="outputBinding" value="asignarA"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="4" name="accionARealizar" type="InputText" id="1691788150">
