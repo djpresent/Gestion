@@ -3,15 +3,16 @@
 <property name="name" value="Aprobar-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="solicitar_aprobar" type="CheckBox" id="601407369">
+<field position="3" name="solicitar_aprobar" type="CheckBox" id="601407369">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;aprobar (solicitar)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="solicitar/aprobar"/>
 <property name="outputBinding" value="solicitar/aprobar"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="1" name="solicitar_descripcion" type="InputText" id="1617938051">
+<field position="0" name="solicitar_descripcion" type="InputText" id="1617938051">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;descripcion (solicitar)quot;"/>
 <property name="readonly" value="false"/>
@@ -19,7 +20,7 @@
 <property name="outputBinding" value="solicitar/descripcion"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="2" name="solicitar_id" type="InputTextLong" id="240552605">
+<field position="1" name="solicitar_id" type="InputTextLong" id="240552605">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;id (solicitar)quot;"/>
 <property name="readonly" value="false"/>
@@ -27,7 +28,7 @@
 <property name="outputBinding" value="solicitar/id"/>
 <property name="fieldClass" value="java.lang.Long"/>
 </field>
-<field position="3" name="solicitar_nombre" type="InputText" id="1042933990">
+<field position="2" name="solicitar_nombre" type="InputText" id="1042933990">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;nombre (solicitar)quot;"/>
 <property name="readonly" value="false"/>
