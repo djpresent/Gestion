@@ -59,15 +59,7 @@
 <property name="outputBinding" value="tramite/fechaSolicitud"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<field position="7" name="tramite_finalizado" type="CheckBox" id="1420159085">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;finalizado (tramite)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="tramite/finalizado"/>
-<property name="outputBinding" value="tramite/finalizado"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="8" name="tramite_id" type="InputTextLong" id="498529356">
+<field position="7" name="tramite_id" type="InputTextLong" id="498529356">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;id (tramite)quot;"/>
 <property name="readonly" value="false"/>
@@ -75,7 +67,7 @@
 <property name="outputBinding" value="tramite/id"/>
 <property name="fieldClass" value="java.lang.Long"/>
 </field>
-<field position="9" name="tramite_numeroDocumento" type="InputText" id="1432700172">
+<field position="8" name="tramite_numeroDocumento" type="InputText" id="1432700172">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;numeroDocumento (tramite)quot;"/>
 <property name="readonly" value="false"/>
@@ -83,7 +75,7 @@
 <property name="outputBinding" value="tramite/numeroDocumento"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="10" name="tramite_reasignacion" bag-type="ec.edu.ucuenca.registrotramites.Reasignacion" type="MultipleSubform" id="250810462">
+<field position="9" name="tramite_reasignacion" bag-type="ec.edu.ucuenca.registrotramites.Reasignacion" type="MultipleSubform" id="250810462">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;reasignacion (tramite)quot;"/>
 <property name="readonly" value="false"/>
@@ -91,7 +83,7 @@
 <property name="outputBinding" value="tramite/reasignacion"/>
 <property name="fieldClass" value="java.util.List"/>
 </field>
-<field position="11" name="tramite_solicitante" type="InputText" id="522280500">
+<field position="10" name="tramite_solicitante" type="InputText" id="522280500">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;solicitante (tramite)quot;"/>
 <property name="readonly" value="false"/>
