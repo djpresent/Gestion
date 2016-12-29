@@ -1,0 +1,103 @@
+
+<form id="954565997">
+<property name="name" value="RegistrarTramite-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="tramite_dependenciaOrigen" type="InputText" id="58797367">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dependenciaOrigen (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/dependenciaOrigen"/>
+<property name="outputBinding" value="tramite/dependenciaOrigen"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="tramite_descripcion" type="InputText" id="1092593465">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;descripcion (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/descripcion"/>
+<property name="outputBinding" value="tramite/descripcion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="tramite_esQuipux" type="CheckBox" id="1796907780">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;esQuipux (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/esQuipux"/>
+<property name="outputBinding" value="tramite/esQuipux"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="3" name="tramite_fechaDespacho" type="InputDate" id="1126065620">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fechaDespacho (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/fechaDespacho"/>
+<property name="outputBinding" value="tramite/fechaDespacho"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="4" name="tramite_fechaFinalizacion" type="InputDate" id="355761927">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fechaFinalizacion (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/fechaFinalizacion"/>
+<property name="outputBinding" value="tramite/fechaFinalizacion"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="5" name="tramite_fechaIngresoTramite" type="InputDate" id="1873022672">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fechaIngresoTramite (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/fechaIngresoTramite"/>
+<property name="outputBinding" value="tramite/fechaIngresoTramite"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="6" name="tramite_fechaSolicitud" type="InputDate" id="857855497">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fechaSolicitud (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/fechaSolicitud"/>
+<property name="outputBinding" value="tramite/fechaSolicitud"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="7" name="tramite_finalizado" type="CheckBox" id="1420159085">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;finalizado (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/finalizado"/>
+<property name="outputBinding" value="tramite/finalizado"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="8" name="tramite_id" type="InputTextLong" id="498529356">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/id"/>
+<property name="outputBinding" value="tramite/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="9" name="tramite_numeroDocumento" type="InputText" id="1432700172">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;numeroDocumento (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/numeroDocumento"/>
+<property name="outputBinding" value="tramite/numeroDocumento"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="tramite_reasignacion" bag-type="ec.edu.ucuenca.registrotramites.Reasignacion" type="MultipleSubform" id="250810462">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;reasignacion (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/reasignacion"/>
+<property name="outputBinding" value="tramite/reasignacion"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="11" name="tramite_solicitante" type="InputText" id="522280500">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;solicitante (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/solicitante"/>
+<property name="outputBinding" value="tramite/solicitante"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="tramite" name="#E9E371" type="dataModelerEntry" outId="tramite" value="ec.edu.ucuenca.registrotramites.Tramite" id="tramite"/>
+</form>
