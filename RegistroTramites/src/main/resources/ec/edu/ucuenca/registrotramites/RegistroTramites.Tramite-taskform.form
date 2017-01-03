@@ -6,7 +6,15 @@
 <field position="0" name=":decorator_0" type="HTMLLabel" id="861691500">
 <property name="fieldRequired" value="false"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;enquot;,quot;HTMLquot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h2 style=&quot;font-style:italic;&quot;&gt;Proceso para el registro de tramites de la Direcci&amp;oacute;n Administrativa Financiera&lt;/h2&gt;
+quot;quot;dequot;,quot;&lt;h2 style=&quot;font-style:italic;&quot;&gt;Proceso para el registro de tramites de la Direcci&amp;oacute;n Administrativa Financiera&lt;/h2&gt;
+quot;quot;enquot;,quot;&lt;h2 style=&quot;font-style:italic;&quot;&gt;Proceso para el registro de tramites de la Direcci&amp;oacute;n Administrativa Financiera&lt;/h2&gt;
+quot;quot;esquot;,quot;&lt;h2 style=&quot;font-style:italic;&quot;&gt;Proceso para el registro de tramites de la Direcci&amp;oacute;n Administrativa Financiera&lt;/h2&gt;
+quot;quot;frquot;,quot;&lt;h2 style=&quot;font-style:italic;&quot;&gt;Proceso para el registro de tramites de la Direcci&amp;oacute;n Administrativa Financiera&lt;/h2&gt;
+quot;quot;jaquot;,quot;&lt;h2 style=&quot;font-style:italic;&quot;&gt;Proceso para el registro de tramites de la Direcci&amp;oacute;n Administrativa Financiera&lt;/h2&gt;
+quot;quot;ptquot;,quot;&lt;h2 style=&quot;font-style:italic;&quot;&gt;Proceso para el registro de tramites de la Direcci&amp;oacute;n Administrativa Financiera&lt;/h2&gt;
+quot;quot;zhquot;,quot;&lt;h2 style=&quot;font-style:italic;&quot;&gt;Proceso para el registro de tramites de la Direcci&amp;oacute;n Administrativa Financiera&lt;/h2&gt;
+quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
 <dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="tramite" value="ec.edu.ucuenca.registrotramites.Tramite" id="tramite"/>
