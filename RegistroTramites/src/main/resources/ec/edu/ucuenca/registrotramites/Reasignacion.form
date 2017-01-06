@@ -22,7 +22,52 @@
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="rangeFormula" value="{andres.montero91 , MONTERO BERMEO PAUL ANDRES; carmen.paida , PAIDA SARMIENTO CARMEN TERESA; catalina.rivera , RIVERA OCHOA BLANCA CATALINA; cristina.andrade , ANDRADE ANDRADE CRISTINA PAOLA; david.larriva84 , LARRIVA PESANTEZ ADRIAN DAVID; deisy.granja , GRANJA ZABALA DEISY ALEXANDRA; diana.quezada , QUEZADA CABRERA DIANA CATALINA; dory.tapia , TAPIA VERA DORY JANETH; elizabeth.delgadov , DELGADO VELESACA MARIA ELIZABETH; erika.berrones , BERRONES MENDEZ ERIKA VIVIANA; estefania.andrade , ANDRADE SANCHEZ ANDREA ESTEFANIA; fabian.orellana , ORELLANA CHACON FABIAN ESTEBAN; fernanda.figueroa , FIGUEROA TORRES MARIA FERNANDA; fernando.velez , VELEZ MENDOZA ARTURO FERNANDO; franklin.flores , FLORES FLORES FRANKLIN PATRICIO; freddy.sanchez , SANCHEZ QUITO FREDDY MANUEL; gabriel.cartagena , CARTAGENA CAMPOVERDE JUAN GABRIEL; ines.vanegas , VANEGAS MATUTE INES CATALINA; irma.brito , BRITO VASQUEZ IRMA FABIOLA; jenny.castro , CASTRO CASTRO JENNY MAGALI; jenny.velezc , VELEZ CORDERO JENNY SOLEDAD; jose.canizares , CAÑIZARES CAÑIZARES JOSE FERNANDO; jose.pauta , PAUTA GUZMAN JOSE OSWALDO; juan.llerena , LLERENA GOMEZ JUAN ANTONIO; julia.castrop , CASTRO PESANTEZ JULIA BEATRIZ; lisbeth.pineda , PINEDA VALAREZO GLENDA LISBETH; mayra.torres , TORRES SALAMEA MAYRA ALEXANDRA; miriam.reinoso , REINOSO AVECILLAS MIRIAM CECILIA; monica.mancero , MANCERO LUZURIAGA MONICA PRISCILA; monica.pauta , PAUTA MOLINA MONICA CECILIA; nancy.mendez , MENDEZ ROJAS NANCY PATRICIA; norma.barreto , BARRETO SIGUENCIA NORMA MARGARITA; oswaldo.collaguazo , COLLAGUAZO NAULA OSWALDO JULIO; paulo.berrezueta , BERREZUETA CRIOLLO PAULO ALEXANDER; paulo.cobos , COBOS PESANTEZ PAULO CESAR; silvana.merchan , MERCHAN CORDERO SILVANA ALEXANDRA; soledad.escandonm , ESCANDON MEJIA MARIA SOLEDAD; sonia.donoso , DONOSO CORREA SONIA PATRICIA; tania.urena , UREÑA UREÑA TANIA MARILU; tatiana.castillo , CASTILLO PALOMEQUE TATIANA PAOLA; vanessa.garcia , GARCIA ARPI VANESSA NATALY; xavier.molina , MOLINA SALGADO XAVIER ANTONIO; carolina.perez , PEREZ SARMIENTO MARIA CAROLINA; mariaeugenia.fajardo , FAJARDO PERALTA MARIA EUGENIA; geovanny.campoverde , CAMPOVERDE LLANOS EDISSON GEOVANNY}"/>
+<property name="rangeFormula" value="{cristina.andrade , ANDRADE ANDRADE CRISTINA PAOLA
+estefania.andrade , ANDRADE SANCHEZ ANDREA ESTEFANIA
+norma.barreto , BARRETO SIGUENCIA NORMA MARGARITA
+paulo.berrezueta , BERREZUETA CRIOLLO PAULO ALEXANDER
+erika.berrones , BERRONES MENDEZ ERIKA VIVIANA
+irma.brito , BRITO VASQUEZ IRMA FABIOLA
+jose.canizares , CAÑIZARES CAÑIZARES JOSE FERNANDO
+gabriel.cartagena , CARTAGENA CAMPOVERDE JUAN GABRIEL
+tatiana.castillo , CASTILLO PALOMEQUE TATIANA PAOLA
+jenny.castro , CASTRO CASTRO JENNY MAGALI
+julia.castrop , CASTRO PESANTEZ JULIA BEATRIZ
+paulo.cobos , COBOS PESANTEZ PAULO CESAR
+oswaldo.collaguazo , COLLAGUAZO NAULA OSWALDO JULIO
+elizabeth.delgadov , DELGADO VELESACA MARIA ELIZABETH
+sonia.donoso , DONOSO CORREA SONIA PATRICIA
+soledad.escandonm , ESCANDON MEJIA MARIA SOLEDAD
+fernanda.figueroa , FIGUEROA TORRES MARIA FERNANDA
+franklin.flores , FLORES FLORES FRANKLIN PATRICIO
+vanessa.garcia , GARCIA ARPI VANESSA NATALY
+deisy.granja , GRANJA ZABALA DEISY ALEXANDRA
+david.larriva84 , LARRIVA PESANTEZ ADRIAN DAVID
+juan.llerena , LLERENA GOMEZ JUAN ANTONIO
+monica.mancero , MANCERO LUZURIAGA MONICA PRISCILA
+nancy.mendez , MENDEZ ROJAS NANCY PATRICIA
+silvana.merchan , MERCHAN CORDERO SILVANA ALEXANDRA
+xavier.molina , MOLINA SALGADO XAVIER ANTONIO
+andres.montero91 , MONTERO BERMEO PAUL ANDRES
+fabian.orellana , ORELLANA CHACON FABIAN ESTEBAN
+carmen.paida , PAIDA SARMIENTO CARMEN TERESA
+jose.pauta , PAUTA GUZMAN JOSE OSWALDO
+monica.pauta , PAUTA MOLINA MONICA CECILIA
+carolina.perez , PEREZ SARMIENTO MARIA CAROLINA
+lisbeth.pineda , PINEDA VALAREZO GLENDA LISBETH
+diana.quezada , QUEZADA CABRERA DIANA CATALINA
+miriam.reinoso , REINOSO AVECILLAS MIRIAM CECILIA
+catalina.rivera , RIVERA OCHOA BLANCA CATALINA
+freddy.sanchez , SANCHEZ QUITO FREDDY MANUEL
+dory.tapia , TAPIA VERA DORY JANETH
+mayra.torres , TORRES SALAMEA MAYRA ALEXANDRA
+tania.urena , UREÑA UREÑA TANIA MARILU
+ines.vanegas , VANEGAS MATUTE INES CATALINA
+jenny.velezc , VELEZ CORDERO JENNY SOLEDAD
+fernando.velez , VELEZ MENDOZA ARTURO FERNANDO
+geovanny.campoverde , CAMPOVERDE LLANOS EDISSON GEOVANNY
+mariaeugenia.fajardo , FAJARDO PERALTA MARIA EUGENIA
+}"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="reasignacion/usuarioDestino"/>
