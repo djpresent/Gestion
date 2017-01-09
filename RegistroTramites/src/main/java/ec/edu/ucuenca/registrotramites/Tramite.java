@@ -15,39 +15,45 @@ public class Tramite implements java.io.Serializable
    @javax.persistence.SequenceGenerator(sequenceName = "TRAMITE_ID_SEQ", name = "TRAMITE_ID_GENERATOR")
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label(value = "Dependencia origen")
+   @org.kie.api.definition.type.Label("Dependencia origen")
    private java.lang.String dependenciaOrigen;
 
-   @org.kie.api.definition.type.Label(value = "Descripcion")
+   @org.kie.api.definition.type.Label("Descripcion")
    private java.lang.String descripcion;
 
-   @org.kie.api.definition.type.Label(value = "Es Quipux")
+   @org.kie.api.definition.type.Label("Es Quipux")
    private java.lang.Boolean esQuipux;
 
-   @org.kie.api.definition.type.Label(value = "Fecha de despacho")
+   @org.kie.api.definition.type.Label("Fecha de despacho")
    private java.util.Date fechaDespacho;
 
-   @org.kie.api.definition.type.Label(value = "Fecha de finalizacion")
+   @org.kie.api.definition.type.Label("Fecha de finalizacion")
    private java.util.Date fechaFinalizacion;
 
-   @org.kie.api.definition.type.Label(value = "Fecha de ingreso")
+   @org.kie.api.definition.type.Label("Fecha de ingreso")
    private java.util.Date fechaIngresoTramite;
 
-   @org.kie.api.definition.type.Label(value = "Fecha de solicitud")
+   @org.kie.api.definition.type.Label("Fecha de solicitud")
    private java.util.Date fechaSolicitud;
 
-   @org.kie.api.definition.type.Label(value = "Finalizado")
+   @org.kie.api.definition.type.Label("Finalizado")
    private java.lang.Boolean finalizado;
 
-   @org.kie.api.definition.type.Label(value = "Numero de documento")
+   @org.kie.api.definition.type.Label("Numero de documento")
    private java.lang.String numeroDocumento;
 
-   @org.kie.api.definition.type.Label(value = "Solicitante")
+   @org.kie.api.definition.type.Label("Solicitante")
    private java.lang.String solicitante;
 
    @javax.persistence.OneToMany(fetch = javax.persistence.FetchType.EAGER, cascade = { javax.persistence.CascadeType.ALL })
-   @org.kie.api.definition.type.Label(value = "Reasignacion")
+   @org.kie.api.definition.type.Label("Reasignacion")
    private java.util.List<ec.edu.ucuenca.registrotramites.Reasignacion> reasignacion;
+
+   @org.kie.api.definition.type.Label(value = "Numero Unico de Tramite")
+   private java.lang.String numeroUnicoTramite;
+
+   @org.kie.api.definition.type.Label(value = "Documento con el que finaliza")
+   private java.lang.String documentoFinaliza;
 
    public Tramite()
    {
@@ -174,6 +180,26 @@ public class Tramite implements java.io.Serializable
       this.reasignacion = reasignacion;
    }
 
+   public java.lang.String getNumeroUnicoTramite()
+   {
+      return this.numeroUnicoTramite;
+   }
+
+   public void setNumeroUnicoTramite(java.lang.String numeroUnicoTramite)
+   {
+      this.numeroUnicoTramite = numeroUnicoTramite;
+   }
+
+   public java.lang.String getDocumentoFinaliza()
+   {
+      return this.documentoFinaliza;
+   }
+
+   public void setDocumentoFinaliza(java.lang.String documentoFinaliza)
+   {
+      this.documentoFinaliza = documentoFinaliza;
+   }
+
    public Tramite(
          java.lang.Long id,
          java.lang.String dependenciaOrigen,
@@ -186,7 +212,8 @@ public class Tramite implements java.io.Serializable
          java.lang.Boolean finalizado,
          java.lang.String numeroDocumento,
          java.lang.String solicitante,
-         java.util.List<ec.edu.ucuenca.registrotramites.Reasignacion> reasignacion)
+         java.util.List<ec.edu.ucuenca.registrotramites.Reasignacion> reasignacion,
+         java.lang.String numeroUnicoTramite, java.lang.String documentoFinaliza)
    {
       this.id = id;
       this.dependenciaOrigen = dependenciaOrigen;
@@ -200,6 +227,8 @@ public class Tramite implements java.io.Serializable
       this.numeroDocumento = numeroDocumento;
       this.solicitante = solicitante;
       this.reasignacion = reasignacion;
+      this.numeroUnicoTramite = numeroUnicoTramite;
+      this.documentoFinaliza = documentoFinaliza;
    }
 
 }
